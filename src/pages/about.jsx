@@ -3,15 +3,15 @@ import Helmet from "react-helmet";
 import Layout from "../layout";
 import About from "../components/About/About";
 import config from "../../data/SiteConfig";
-
+import "./index.css";
 class AboutPage extends Component {
   render() {
     return (
       <Layout>
-        <div className="about-container">
+        <main className="about-container">
           <Helmet title={`About | ${config.siteTitle}`} />
           <About />
-        </div>
+        </main>
       </Layout>
     );
   }

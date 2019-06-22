@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
+
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
@@ -14,6 +15,19 @@ class Index extends React.Component {
         <div className="index-container">
           <Helmet title={config.siteTitle} />
           <SEO />
+          <main class="p-2">
+           <header><h1>Hello world, it is me, apple head <i className="fas fa-times"></i></h1>
+            <p>theres a lot of things happening, all good things, and placeholder text. and sometimes theres enough content for the text to wrap to multiple lines.</p>
+        
+           </header>
+          
+          </main>
+          <section>
+            <article>blog</article>
+            <article>portfolio</article>
+            <article>leather work</article>
+            <article>resume</article>
+          </section>
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>

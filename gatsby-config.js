@@ -95,6 +95,7 @@ module.exports = {
       }
     },
     "gatsby-plugin-offline",
+    "gatsby-plugin-sass",
     {
       resolve: "gatsby-plugin-feed",
       options: {
