@@ -57,12 +57,17 @@ table {
   white-space: nowrap;
   border: 0;
 }
-:root{
-	--primary-brand: #{$blue-1};
-}
+
 body{
 background-image: url('/img/memphis-mini.png');	
+ color: $text;
+  font-family: 'Helvetica Neue', 'Alegreya Sans', 'Nunito Sans', 'Quattrocento Sans', cursive, sans-serif;
+
 }
+h1,h2,h3,h4,h5,h6{
+   font-family:  'Big Caslon',' Roboto','Alegreya', 'Nunito', 'Roboto Slab', 'Quattrocento', 'Helvetica', cursive,  serif;
+}
+
 $spacer: var(--baseline) !default;
 $spacers: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -102,3 +107,4 @@ $spacers: map-merge(
     }
 
 @import 'type.scss';
+@import 'landing.scss';

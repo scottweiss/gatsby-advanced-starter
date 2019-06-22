@@ -15,20 +15,43 @@ class Index extends React.Component {
         <div className="index-container">
           <Helmet title={config.siteTitle} />
           <SEO />
-          <main class="p-2">
-           <header><h1>Hello world, it is me, apple head <i className="fas fa-times"></i></h1>
-            <p>theres a lot of things happening, all good things, and placeholder text. and sometimes theres enough content for the text to wrap to multiple lines.</p>
+          <main class="landing ">
+           <header class="landing__header"><h1>Hello World!</h1>
+            <p>Scott Weiss is a Front-End/UI Developer specializing in design systems, accessability, progressive enhancement, responsive design, and style scalability. He currently works for Tembo Inc. in Portland, Oregon.</p>
         
            </header>
           
+          
+          <nav class="landing__nav">
+
+         
+            <a href="" class="landing__article" id="blog-link">
+              <i class="fa-fw fas fa-newspaper"></i>
+              <h2>blog</h2>
+            </a>
+      
+            <a href="" class="landing__article" id="portfolio-link"><i class="fa-fw fas fa-briefcase"></i><h2>portfolio</h2></a>
+            <a class="landing__article" id="leather-link" href="">
+              <i class="fas fa-flask"></i>
+              <h2>experiments</h2>
+            </a>
+            <a class="landing__article" id="leather-link" href="">
+              <i class="fa-fw fas fa-wallet"></i>
+              <h2>leather</h2>
+            </a>
+            <a class="landing__article" id="resume-link" href="/resume">
+              <i class="fa-fw fas fa-file"></i>
+              <h2>resume</h2>
+            </a>
+
+            <a href="/about"class="landing__article" id="contact-link">
+              <i class="fa-fw fas fa-address-card"></i>
+              <h2>contact</h2>
+            </a>
+          </nav>
+
           </main>
-          <section>
-            <article>blog</article>
-            <article>portfolio</article>
-            <article>leather work</article>
-            <article>resume</article>
-          </section>
-          <PostListing postEdges={postEdges} />
+          {/* <PostListing postEdges={postEdges} /> */}
         </div>
       </Layout>
     );

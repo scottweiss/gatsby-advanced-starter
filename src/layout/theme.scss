@@ -3,3 +3,12 @@ $blue-1: #0af;
 $blue-2: #3bf;
 $blue-3: #6cf;
 $yellow-1: #ff9;
+$orange: #FFBB99;
+
+:root{
+	--black: #{$text};
+	--primary-brand: #{$blue-1};
+  	--primary-brand--lighter: #{$blue-2};
+  	--primary-brand--lightest: #{$blue-3};
+  	--secondary-brand: #{$yellow-1};
+}
