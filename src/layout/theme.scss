@@ -2,13 +2,15 @@ $text: #333;
 $blue-1: #0af;
 $blue-2: #3bf;
 $blue-3: #6cf;
+$blue-4: #cceeff;
 $yellow-1: #ff9;
 $orange: #FFBB99;
 
 :root{
 	--black: #{$text};
-	--primary-brand: #{$blue-1};
-  	--primary-brand--lighter: #{$blue-2};
-  	--primary-brand--lightest: #{$blue-3};
+	--primary-brand--dark: #{$blue-1};
+  	--primary-brand: #{$blue-2};
+  	--primary-brand--lighter: #{$blue-3};
+  	--primary-brand--lightest: #{$blue-4};
   	--secondary-brand: #{$yellow-1};
 }
