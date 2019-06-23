@@ -1,11 +1,8 @@
 ---
 title: "The Most Boring Article About Css Grid You'll Ever Read"
-path: '/check-this-ou'
-date: '2019-05-22'
-published: true
-keywords: ['test']
-tags: ['something']
-searchterms: ['another one']
+cover: "https://unsplash.it/400/300/?random?BoldMage"
+date: "2019-05-22"
+category: "tech"
 ---
 
 ## placeholder
