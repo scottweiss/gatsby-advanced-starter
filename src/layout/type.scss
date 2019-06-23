@@ -4,25 +4,25 @@ $type-settings: (
 		(
 			"ratio": 1.333,
 			"base": 14,
-			"types": (1: (line-height: 1), 2: (line-height: 1), 3: (line-height: 1), 4: (line-height: 2), 5: (line-height: 3))
+			"types": (1: (line-height: 1), 2: (line-height: 1), 3: (line-height: 1), 4: (line-height: 2), 5: (line-height: 3), 6: (line-height: 1))
 		),
 	576:
 		(
 			"ratio": 1.333,
 			"base": 16,
-			"types": (1: (line-height: 1), 2: (line-height: 1), 3: (line-height: 1), 4: (line-height: 2), 5: (line-height: 3))
+			"types": (1: (line-height: 1), 2: (line-height: 1), 3: (line-height: 1), 4: (line-height: 2), 5: (line-height: 3), 6: (line-height: 1))
 		),
 	768:
 		(
 			"ratio": 1.5,
 			"base": 18,
-			"types": (1: (line-height: 1), 2: (line-height: 1), 3: (line-height: 2), 4: (line-height: 3), 5: (line-height: 4))
+			"types": (1: (line-height: 1), 2: (line-height: 1), 3: (line-height: 2), 4: (line-height: 2), 5: (line-height: 4), 6: (line-height: 1))
 		),
 	992:
 		(
-			"ratio": 1.5,
+			"ratio": 1.616,
 			"base": 20,
-			"types": (1: (line-height: 1), 2: (line-height: 2), 3: (line-height: 2), 4: (line-height: 3), 5: (line-height: 6))
+			"types": (1: (line-height: 1), 2: (line-height: 1.5), 3: (line-height: 2), 4: (line-height: 3), 5: (line-height: 6), 6: (line-height: 1.5))
 		)
 );
 
@@ -288,7 +288,9 @@ p, h4, ul, ol, pre[class*="language-"]  {
 	margin-bottom: var(--baseline);
 	@include poly-fluid-sizing("font-size", type-scale(1));
 }
-
+p.large {
+		@include poly-fluid-sizing("font-size", type-scale(2));
+	}
 
 /* Let's make sure all's aligned */
 pre, table, blockquote {
