@@ -174,8 +174,8 @@ text-decoration: none;
 	&__header{
 	position: relative;
 	overflow: hidden;
-	margin-left: calc(-2 * var(--baseline));
-	margin-right: calc(-2 * var(--baseline));
+	margin-left: calc(-1 * var(--baseline));
+	margin-right: calc(-1 * var(--baseline));
 	margin-top: calc(-3 * var(--baseline));
 
 	&-content{

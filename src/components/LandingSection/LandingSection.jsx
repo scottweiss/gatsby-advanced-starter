@@ -30,7 +30,7 @@ renderConfetti() {
 	console.log('render');
 	var id = this.props.id;
 	 
-	var confettiSettings = { target: this.props.id, size: 5, rotate: true, max: 100 };
+	var confettiSettings = { target: this.props.id, size: 5, rotate: true, max: 100};
 	if (this.props.colors != null){
 		confettiSettings.colors =  this.props.colors;
 	}
@@ -51,6 +51,9 @@ renderConfetti() {
 		confettiSettings.animate =  this.props.animate;
 	} else {
 		confettiSettings.animate =  false;
+	}
+	if (this.props.width != null){
+		confettiSettings.width =  this.props.width;
 	}
 	var canvas = document.getElementById(this.props.id);
 

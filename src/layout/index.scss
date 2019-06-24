@@ -30,7 +30,9 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-      border-left: solid $blue-1 var(--gap);
+ border-left: solid $blue-1 var(--gap);
+     
+
   line-height: 1;
 }
 ol, ul {
