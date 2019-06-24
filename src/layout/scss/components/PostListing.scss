@@ -1,0 +1,27 @@
+.post-listing{
+	text-decoration: none;
+	color: $text;
+
+	&__list{
+		max-width:1200px;
+	display: grid;
+	margin: 0 auto;
+	 grid-template-columns: auto;
+	 grid-template-rows: auto ;
+	 	grid-gap: var(--gap);
+	}
+	&__title{
+		@include poly-fluid-sizing("font-size", type-scale(2));
+	}
+	&__tags{}
+	&__meta{
+		 line-height: 1.825;
+		font-size: 1rem;
+		&-icon{color: $text-light; }
+	}
+
+
+		                    
+
+
+}

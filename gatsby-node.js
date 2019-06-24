@@ -55,12 +55,16 @@ exports.createPages = async ({ graphql, actions }) => {
             node {
               fields {
                 slug
+                date
+            
               }
               frontmatter {
                 title
                 tags
                 category
                 date
+                displaydate
+                byline
               }
             }
           }

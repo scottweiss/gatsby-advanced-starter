@@ -9,6 +9,7 @@ import PostTags from "../components/PostTags/PostTags";
 import SocialLinks from "../components/SocialLinks/SocialLinks";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
+import LandingSection from "../components/LandingSection/LandingSection";
 
 import "./b16-tomorrow-dark.css";
 import "./post.css";
@@ -27,22 +28,31 @@ export default class PostTemplate extends React.Component {
     }
     return (
       <Layout>
-        <div>
+        <div >
           <Helmet>
             <title>{`${post.title} | ${config.siteTitle}`}</title>
           </Helmet>
           <SEO postPath={slug} postNode={postNode} postSEO />
-          <div>
-   
-            <h1>{post.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
-            <div className="post-meta">
-              <PostTags tags={post.tags} />
-              <SocialLinks postPath={slug} postNode={postNode} />
+          <main className="">
+          <header className="page__header" >
+            <div class="page__header-content">
+              <h1 className="large">{post.title}</h1>
+               <p >{post.byline}</p>
             </div>
+          
+ <LandingSection id="confit-blog" ></LandingSection>
+            </header>
+            <div class="page-content">
+
+              <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+              <div className="post-meta">
+                <PostTags tags={post.tags} />
+                <SocialLinks postPath={slug} postNode={postNode} />
+              </div>
             <UserInfo config={config} />
-            <Disqus postNode={postNode} />
-          </div>
+            <Disqus postNode={postNode} /> </div>
+          </main>
+         
         </div>
       </Layout>
     );
@@ -62,6 +72,8 @@ export const pageQuery = graphql`
         date
         category
         tags
+        displaydate
+        byline
       }
       fields {
         slug

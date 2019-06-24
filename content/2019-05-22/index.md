@@ -2,6 +2,7 @@
 title: "The Most Boring Article About Css Grid You'll Ever Read"
 cover: "https://unsplash.it/400/300/?random?BoldMage"
 date: "2019-05-22"
+displaydate: '2019/05/25'
 category: "tech"
 ---
 

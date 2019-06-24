@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
+      border-left: solid $blue-1 var(--gap);
   line-height: 1;
 }
 ol, ul {
@@ -60,7 +61,7 @@ table {
 }
 
 body{
-background-image: url('/img/memphis-mini.png');	
+// background-image: url('/img/memphis-mini.png');	
  color: $text;
   font-family: 'eina', 'Helvetica Neue', 'Alegreya Sans', 'Nunito Sans', 'Quattrocento Sans', cursive, sans-serif;
 
@@ -69,18 +70,19 @@ h1,h2,h3,h4,h5,h6{
    font-family: 'eina', 'Big Caslon',' Roboto','Alegreya', 'Nunito', 'Roboto Slab', 'Quattrocento', 'Helvetica', cursive,  serif;
 }
 
-$spacer: var(--baseline) !default;
+.d-block{display: block;}
+.p-relative{position: relative;}
+$spacer: 1rem !default;
 $spacers: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $spacers: map-merge(
   (
     0: 0,
-    1: #{$spacer} ,
-    2: calc(#{$spacer} * 2),
-    3: calc(#{$spacer} * 3),
-    4: calc(#{$spacer} * 4),
-    5: calc(#{$spacer} * 5),
-    // gutter: $grid-gutter-width
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 1.5,
+    5: $spacer * 3,
   ),
   $spacers
 );
@@ -108,4 +110,6 @@ $spacers: map-merge(
     }
 
 @import 'type.scss';
+@import 'card.scss';
 @import 'landing.scss';
+@import 'scss/components/PostListing';

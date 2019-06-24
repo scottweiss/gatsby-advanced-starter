@@ -3,6 +3,7 @@ title: "Lessons learned"
 cover: "https://unsplash.it/1152/300/?random?FaityWitch"
 category: "something"
 date: "06/04/2019"
+displaydate: '2019/05/25'
 ---
 
 ## placeholder

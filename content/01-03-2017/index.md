@@ -2,7 +2,8 @@
 title: "Angels of Mist"
 cover: "https://unsplash.it/400/300/?random?AngelsofMist"
 category: "test3"
-date: "01/03/2017"
+date: "2017-01-03"
+displaydate: '2019/05/25'
 tags:
     - cheese
     - other

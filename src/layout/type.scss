@@ -260,14 +260,14 @@ h4 {
 // }
 
 h1 {
-	@include poly-fluid-sizing("font-size", type-scale(4));
+	@include poly-fluid-sizing("font-size", type-scale(3));
 	// font-family: Playfair Display;
 	// font-weight: 900;
 	// word-spacing: 0.02em;
  //    letter-spacing: -.026em;
 	// margin-bottom: 0;
 	&.large {
-		@include poly-fluid-sizing("font-size", type-scale(5));
+		@include poly-fluid-sizing("font-size", type-scale(4));
 	}
 }
 

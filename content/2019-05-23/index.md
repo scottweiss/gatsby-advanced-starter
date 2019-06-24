@@ -1,7 +1,8 @@
 ---
 title: '8 Things the Media Hasnt Told You About Css Variables'
 cover: "https://unsplash.it/1152/300/?random?TheButterflyoftheEdge"
-date: '2019-05-23'
+date: "2019-05-23"
+displaydate: '2019/05/25'
 published: true
 keywords: []
 tags: []
