@@ -29,7 +29,7 @@ class Disqus extends Component {
     }
     const post = postNode.frontmatter;
     const url = urljoin(
-      config.siteUrl,
+      'scottweiss.me',
       config.pathPrefix,
       postNode.fields.slug
     );
