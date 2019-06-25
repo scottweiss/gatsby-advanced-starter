@@ -16,18 +16,15 @@ class Experiment extends React.Component {
         <div className="index-container">
           <Helmet title={config.siteTitle} />
           <SEO />
-          <main className="">
-            
-              <header className="page__header" >
-                <div class="page__header-content">
-                  <h1 className="large">Because why not?</h1>
+          <main className="o-page">
+            <header className="o-page__header" >
+              <div class="o-page__header-content">
+                <h1 className="large">Because why not?</h1>
                 <p className="large">fun things of little importance that I wanted to give a home</p>
-                </div>
+              </div>
                 
-                <LandingSection id="confit-blog" animate={true} clock={'-1'}  shapes={["square", "circle"]}></LandingSection>
+              <LandingSection id="confit-blog" animate={true} clock={'-1'}  shapes={["square", "circle"]}></LandingSection>
               </header>
-              
-         
            
               <PostListing postEdges={postEdges} /> 
           

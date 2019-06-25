@@ -33,16 +33,16 @@ export default class PostTemplate extends React.Component {
             <title>{`${post.title} | ${config.siteTitle}`}</title>
           </Helmet>
           <SEO postPath={slug} postNode={postNode} postSEO />
-          <main className="">
-          <header className="page__header" >
-            <div class="page__header-content">
+          <main className="o-page o-page--post ">
+            <header className="o-page__header" >
+              <div class="o-page__header-content">
               <h1 className="large">{post.title}</h1>
                <p >{post.byline}</p>
             </div>
           
- <LandingSection id="confit-blog" ></LandingSection>
+            <LandingSection id="confit-blog" ></LandingSection>
             </header>
-            <div class="page-content">
+            <div class="o-page__body">
 
               <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
               <div className="post-meta">
@@ -50,7 +50,8 @@ export default class PostTemplate extends React.Component {
                 <SocialLinks postPath={slug} postNode={postNode} />
               </div>
             <UserInfo config={config} />
-            <Disqus postNode={postNode} /> </div>
+        
+            </div>
           </main>
          
         </div>

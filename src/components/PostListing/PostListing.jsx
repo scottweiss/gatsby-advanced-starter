@@ -23,18 +23,21 @@ class PostListing extends React.Component {
   render() {
     const postList = this.getPostList();
     return (
-      <div className="post-listing__list">
+      <div className="o-post__list">
         {/* Your post list here. */
         postList.map(post => (
-          <Link className="post-listing c-card d-block" to={post.path} key={post.title}>
+          <Link className="c-card o-post" to={post.path} key={post.title}>
           <header>
             <h1 className="post-listing__title">{post.title}</h1>
             <p>{post.byline}</p>
+            
+           
+          </header>
+          <footer>
             <PostTags tags={post.tags} />
             <p className="m-0 post-listing__meta"><i class="fas fa-calendar fa-fw mr-2 post-listing__meta-icon"></i>{post.displaydate}</p>
             <p className="m-0 post-listing__meta"><i class="fas fa-book-open fa-fw mr-2 post-listing__meta-icon"></i>{post.timeToRead} minutes</p>
-           
-          </header>
+          </footer>
            
           </Link>
         ))}

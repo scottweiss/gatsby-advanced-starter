@@ -16,10 +16,9 @@ class Portfolio extends React.Component {
         <div className="index-container">
           <Helmet title={config.siteTitle} />
           <SEO />
-          <main className="">
-            
-              <header className="page__header" >
-                <div class="page__header-content">
+          <main className="o-page">
+            <header className="o-page__header" >
+              <div class="o-page__header-content">
                   <h1 className="large">See what I can do</h1>
                   <p className="large">a subset of work</p>
                 </div>
