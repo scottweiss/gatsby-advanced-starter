@@ -7,6 +7,18 @@ $blue-4: #cceeff;
 $yellow-1: #ff9;
 $orange: #FFBB99;
 
+$orange-1: rgb(255,119,0);
+$tan-1:  rgb(247, 211, 170);
+$silver: rgb(212,211,211);
+$green-1: rgb(70,184,52);
+$green-2: rgb(43,146,28);
+
+.bg-orange{background: $orange-1 !important;}
+
+.bg-tan{background: $tan-1 !important;}
+.bg-green-1{background: $green-1 !important;}
+.bg-green-2{background: $green-2 !important;}
+
 :root{
 	--black: #{$text};
 	--primary-brand--dark: #{$blue-1};

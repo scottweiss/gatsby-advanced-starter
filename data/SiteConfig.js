@@ -1,7 +1,7 @@
 const config = {
-  siteTitle: "Gatsby Advanced Starter", // Site title.
-  siteTitleShort: "GA Starter", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "GatsbyJS Advanced Starter", // Alternative site title for SEO.
+  siteTitle: "Scott Weiss - Front End/UI Developer", // Site title.
+  siteTitleShort: "Scott Weiss", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: "Scott Weiss - Front End/UI Developer", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://scottweiss.me", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
@@ -14,12 +14,12 @@ const config = {
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "Scott Weiss", // Username to display in the author segment.
-  userEmail: "AdvancedUser@example.com", // Email used for RSS feed's author segment
+  userEmail: "scott.a.weiss@gmail.com", // Email used for RSS feed's author segment
   userTwitter: "scottweiss", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Portland, OR", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   userDescription:
-    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
+    "to do", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {

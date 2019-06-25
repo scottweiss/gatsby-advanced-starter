@@ -22,54 +22,51 @@ class Index extends React.Component {
         
            </header>
            
-           <section className="landing__intrest c-card">
+           <Link to='/portfolio' className="landing__intrest c-card">
             
              <header>
                <h2>Portfolio</h2>
                <p className="m-0">Work that I'm proud of; a mix of professional work and personal projects</p>
              </header>
-             <LandingSection id="confit-portfolio" animate={false} colors={[[244,120,33]]}></LandingSection>
-           </section>
-                <Link to='/blog' className="landing__intrest c-card">
+             <LandingSection id="confit-portfolio" animate={false} colors={[[70,184,52], [212,211,211], [43,146,28]]}></LandingSection>
+           </Link>
+            <Link to='/resume' className="landing__intrest c-card">
+             <header>
+               <h2>Resume</h2>
+               <p className="m-0">Where I come from and what I've done</p>
+             </header>
+             <LandingSection id="Resume-blog"  animate={false} colors={[[  0, 170, 255]]}></LandingSection>
+           </Link>
+          <Link to='/blog' className="landing__intrest c-card">
                   
              <header>
                <h2>Blog</h2>
                <p className="m-0">Discover exciting new CSS, deep dive into my workflow, and intresting challenges I've overcome</p>
              </header>
-             <LandingSection id="confit-blog" animate={false}></LandingSection>
+             <LandingSection id="confit-blog" animate={false} colors={[[247, 211, 170], [255,119,0]]} shapes={["square", "circle"]}></LandingSection>
            </Link>
-                <section className="landing__intrest c-card">
-             <header>
-               <h2>Resume</h2>
-               <p className="m-0">Where I come from and what I've done</p>
-             </header>
-             <LandingSection id="Resume-blog"  animate={false} colors={[[7, 41, 77],[255, 198,0]]}></LandingSection>
-           </section>
-                <section className="landing__intrest c-card" id="landing-experement">
+          
+                <Link to='/experiments' className="landing__intrest c-card">
              <header>
                <h2>Experiments</h2>
-               <p className="m-0">A place for small micro project and codepen best-ofs</p>
+               <p className="m-0">A place for small micro projects and codepen best-ofs</p>
              </header>
-              <LandingSection id="confit-experiments" animate={false} colors={[[70,184,52], [212,211,211], [43,146,28]]} shapes={["square", "circle"]} clock="-1"></LandingSection>
-           </section>
-                <section className="landing__intrest c-card" id="landing-leather">
+              <LandingSection id="confit-experiments" animate={false}  shapes={["square", "circle"]} clock="-1"></LandingSection>
+           </Link>
+                <Link to='/leathercraft' className="landing__intrest c-card">
              <header>
                <h2>Leather Work</h2>
                <p className="m-0">A journey from complete amature, to a slighlty less amature leatherworker</p>
              </header>
-              <LandingSection id="confit-leather" animate={false} colors={[[247, 211, 170], [255,119,0]]} shapes={["circle"]}></LandingSection>
-           </section>
-                <section className="landing__intrest c-card">
+              <LandingSection id="confit-leather" animate={false} colors={[[70,184,52], [212,211,211], [43,146,28]]} shapes={["square", "circle"]}></LandingSection>
+           </Link>
+                <Link to='/about' className="landing__intrest c-card">
              <header>
                <h2>Contact</h2>
                <p className="m-0">Send me a message</p>
              </header>
               <LandingSection id="confit-contact" animate={false} colors={[[  0, 170, 255]]}></LandingSection>
-           </section>
-
-          
-          
-       
+           </Link>
 
           </main>
           {/* <PostListing postEdges={postEdges} /> */}

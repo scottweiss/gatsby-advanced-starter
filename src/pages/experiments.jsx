@@ -8,7 +8,7 @@ import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 
-class Index extends React.Component {
+class Experiment extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
@@ -20,11 +20,11 @@ class Index extends React.Component {
             
               <header className="page__header" >
                 <div class="page__header-content">
-                  <h1 className="large">Thoughts on all things CSS</h1>
-                <p className="large">tagline goes here</p>
+                  <h1 className="large">Because why not?</h1>
+                <p className="large">fun things of little importance that I wanted to give a home</p>
                 </div>
                 
-                <LandingSection id="confit-blog" animate={true} clock={'-1'} colors={[[247, 211, 170], [255,119,0]]} shapes={["square", "circle"]}></LandingSection>
+                <LandingSection id="confit-blog" animate={true} clock={'-1'}  shapes={["square", "circle"]}></LandingSection>
               </header>
               
          
@@ -42,14 +42,15 @@ class Index extends React.Component {
   }
 }
 
-export default Index;
+export default Experiment;
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
-  query IndexQuery {
+  query experimentQuery {
     allMarkdownRemark(
       limit: 2000
-      filter: { frontmatter: { category: {nin: ["portfolio","leather","experiments"] } } }
+      sort: { fields: [fields___date], order: DESC }
+      filter: { frontmatter: { category: { eq: "experiments" } } }
     ) {
       edges {
         node {

@@ -8,7 +8,7 @@ import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
 
-class Index extends React.Component {
+class Leather extends React.Component {
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     return (
@@ -24,7 +24,7 @@ class Index extends React.Component {
                 <p className="large">tagline goes here</p>
                 </div>
                 
-                <LandingSection id="confit-blog" animate={true} clock={'-1'} colors={[[247, 211, 170], [255,119,0]]} shapes={["square", "circle"]}></LandingSection>
+                <LandingSection id="confit-blog" animate={true} clock={'-1'} colors={[[70,184,52], [212,211,211], [43,146,28]]} shapes={["square", "circle"]}></LandingSection>
               </header>
               
          
@@ -42,14 +42,15 @@ class Index extends React.Component {
   }
 }
 
-export default Index;
+export default Leather;
 
 /* eslint no-undef: "off" */
-export const pageQuery = graphql`
-  query IndexQuery {
+export const leatherQuery = graphql`
+  query leatherQuery {
     allMarkdownRemark(
       limit: 2000
-      filter: { frontmatter: { category: {nin: ["portfolio","leather","experiments"] } } }
+      sort: { fields: [fields___date], order: DESC }
+      filter: { frontmatter: { category: { eq: "leather" } } }
     ) {
       edges {
         node {

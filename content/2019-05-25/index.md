@@ -7,7 +7,7 @@ displaydate: '2019/05/25'
 published: true
 keywords: []
 tags: []
-searchterms: []
+category: "leather"
 ---
 
 ## placeholder
