@@ -16,8 +16,12 @@
     @media (min-width: 576px) {
      	grid-template-columns:  repeat(auto-fill, minmax(500px, 1fr));
     }
+    &--resume{
+    	grid-template-columns: 100%;
+		max-width:140ch;
+    }
 	&--post{
-		grid-template-columns: auto;
+		grid-template-columns: 100%;
 		max-width:140ch;
 		#{$self}__header{
 			 // margin: calc(-2 * var(--baseline));
