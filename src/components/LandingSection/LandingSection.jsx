@@ -30,7 +30,7 @@ renderConfetti() {
 	console.log('render');
 	var id = this.props.id;
 	 
-	var confettiSettings = { target: this.props.id, size: 5, rotate: true, max: 100};
+	var confettiSettings = { target: this.props.id, size: 5, rotate: true};
 	if (this.props.colors != null){
 		confettiSettings.colors =  this.props.colors;
 	}
@@ -55,6 +55,11 @@ renderConfetti() {
 	if (this.props.width != null){
 		confettiSettings.width =  this.props.width;
 	}
+	if (this.props.max != null){
+		confettiSettings.max =  this.props.max;
+	} else {
+		confettiSettings.max = 30;
+	}
 	var canvas = document.getElementById(this.props.id);
 
 	let confetti = new ConfettiGenerator(confettiSettings);
@@ -69,7 +74,7 @@ renderConfetti() {
 
   render() {
     return (
-        <canvas id={this.props.id}>gu</canvas>
+        <canvas id={this.props.id} class={this.props.class}></canvas>
  
     );
   }

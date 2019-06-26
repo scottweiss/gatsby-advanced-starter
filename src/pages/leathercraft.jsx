@@ -23,7 +23,7 @@ class Leather extends React.Component {
                 <p className="large">tagline goes here</p>
                 </div>
                 
-                <LandingSection id="confit-blog" animate={true} clock={'-1'} colors={[[70,184,52], [212,211,211], [43,146,28]]} shapes={["square", "circle"]}></LandingSection>
+                <LandingSection id="confit-blog" max={100} animate={true} clock={'-1'} colors={[[70,184,52], [212,211,211], [43,146,28]]} shapes={["square", "circle"]}></LandingSection>
               </header>
               
          
