@@ -29,7 +29,8 @@ class Resume extends  React.Component {
        <article class="p-resume">
 			
 				<section class="c-card">
-					<h1 class="p-resume__position">Lead Front End Developer</h1><span class="p-resume__employer">Tembo Inc.</span>
+					<h1 class="p-resume__position">Tembo Inc.</h1>
+					<span class=" p-resume__position">Lead Front End Developer</span>
 					<p class="p-resume__duration">April 2014 – Present</p>
 					<ul class="p-resume__list">
 						<li>Collaborated with a team of designers and developers to create reporting suites and web tools to allow education departments to quickly analyze and disseminate their data.</li>
@@ -47,7 +48,8 @@ class Resume extends  React.Component {
 				</section>
 
 				<section class="c-card">
-					<h1 class="p-resume__position">Developer<span class="p-resume__employer">Independence Blue Cross - Enterprise Architecture</span></h1>
+					<h1 class="p-resume__position">Independence Blue Cross - Enterprise Architecture</h1>
+					<span class=" p-resume__position">Developer</span>
 					<p class="p-resume__duration">September 2012 – March 2013</p>
 					<ul class="p-resume__list">
 						<li>Created an application for renaming files for use with the IBX Mobile application.</li>
@@ -57,7 +59,8 @@ class Resume extends  React.Component {
 				</section>
 
 				<section class="c-card">
-					<h1 class="p-resume__position">Production Support<span class="p-resume__employer">Cigna - Group Insurance</span></h1>
+					<h1 class="p-resume__position">Cigna - Group Insurance</h1>
+					<span class=" p-resume__position">Production Support</span>
 					<p class="p-resume__duration">September 2011 – March 2012</p>
 					<ul class="p-resume__list">
 						<li>Updated and maintained 15 intranet websites using HTML, CSS, .ASP, and Dreamweaver.</li>

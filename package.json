@@ -66,6 +66,7 @@
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",
+    "dev-m": "gatsby develop -H 0.0.0.0 -p 8000",
     "dev": "npm run develop",
     "serve": "gatsby serve",
     "build": "gatsby build",
