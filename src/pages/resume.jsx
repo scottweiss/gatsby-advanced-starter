@@ -36,7 +36,7 @@ class Resume extends  React.Component {
 						<li>Collaborated with a team of designers and developers to create reporting suites and web tools to allow education departments to quickly analyze and disseminate their data.</li>
 						<li>Took static design mock-ups and style guides and converted them into adaptive and responsive web components.</li>
 						<li>Prioritized time, stayed on task, and kept team updated using JIRA.</li>
-						<li>Programmatically generated over 75,000 dynamic reports for students in D.C. to assess their PARCC test results.</li>
+						<li>Programmatically generated over 80,000 dynamic reports for students in D.C. to assess their PARCC test results.</li>
 						<li>Worked heavily with Google Maps JavaScript API to display location results, travel times, and distance between multiple entered locations.</li>
 						<li>Utilized ArcGIS data from a government source to enhance a mapping application.</li>
 						<li>Managed versions across the team using Git.</li>

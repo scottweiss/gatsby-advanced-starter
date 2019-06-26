@@ -62,7 +62,7 @@ class Index extends React.Component {
               <LandingSection class="o-post__header__backdrop o-post__header__backdrop--1"  id="confit-leather-1" animate={false} colors={[[70,184,52], [212,211,211], [43,146,28]]} shapes={["square", "circle"]}></LandingSection>
               <LandingSection class="o-post__header__backdrop o-post__header__backdrop--2"  id="confit-leather-2" animate={false} colors={[[70,184,52], [212,211,211], [43,146,28]]} shapes={["square", "circle"]}></LandingSection>
             </Link>
-            <Link to='/about' className="  c-card o-post">
+            <Link to='/contact' className="  c-card o-post">
               <header class="o-post__header">
                 <h2>Contact</h2>
                 <p className="m-0">Send me a message</p>

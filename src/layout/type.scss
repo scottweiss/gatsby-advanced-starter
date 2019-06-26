@@ -229,7 +229,7 @@ $type-settings: (
 
 body {
 	line-height: var(--baseline);
-	padding: var(--baseline) var(--gap);
+	padding: 0 var(--baseline) var(--gap);
 	// padding-bottom: calc(var(--baseline) * 2);
 	// font-weight: 400;
 	// margin: 0 auto;

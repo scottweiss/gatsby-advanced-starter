@@ -110,6 +110,7 @@ $spacers: map-merge(
     }
 
 @import 'type.scss';
+@import 'scss/patterns/nav.scss';
 @import 'card.scss';
 @import 'landing.scss';
 @import 'scss/resume.scss';
