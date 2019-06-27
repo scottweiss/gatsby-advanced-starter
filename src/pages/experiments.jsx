@@ -23,7 +23,7 @@ class Experiment extends React.Component {
                 <p className="large">fun things of little importance that I wanted to give a home</p>
               </div>
                 
-              <LandingSection id="confit-blog" animate={true} clock={'-1'}  shapes={["square", "circle"]}></LandingSection>
+              <LandingSection id="confit-blog" max="50"  size="4"  animate={true} clock={'-1'}  shapes={["square", "circle"]}></LandingSection>
               </header>
            
               <PostListing postEdges={postEdges} /> 

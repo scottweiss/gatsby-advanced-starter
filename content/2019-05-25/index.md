@@ -7,7 +7,7 @@ displaydate: '2019/05/25'
 published: true
 keywords: []
 tags: []
-category: "leather"
+category: "leathercraft"
 ---
 
 ## placeholder

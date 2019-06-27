@@ -8,7 +8,7 @@
     z-index: 1;
     top: 0;
     backdrop-filter: blur(2px);
-	a{
+	&__link{
 		color: $text;
 		margin-left: calc(0.825 * var(--baseline));
 		text-decoration: none;
