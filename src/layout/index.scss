@@ -109,6 +109,36 @@ $spacers: map-merge(
       }
     }
 
+    .logo{
+      height: 4EM;
+    width: 4em;
+    line-height: 4.2em;
+    border-radius: 50%;
+    color: #fff;
+    background: #333;
+    text-align: center;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background: $c1;
+    }
+    .logo-3{
+      height: auto;
+      line-height: 1;
+      padding: 0.5em;
+      border-radius: .25em;
+      margin-bottom: 10px;
+    }
+    .logo-4{
+      height: auto;
+      line-height: 1;
+      padding: 0.5em;
+      border-radius: .25em;
+      background: $text;
+      color: $c3;
+      font-weight: 900;
+    }
+
 @import 'type.scss';
 @import 'scss/patterns/nav.scss';
 @import 'card.scss';

@@ -13,11 +13,13 @@ $silver: rgb(212,211,211);
 $green-1: rgb(70,184,52);
 $green-2: rgb(43,146,28);
 
-.bg-orange{background: $orange-1 !important;}
+$c1:#ff6188;
+$c2:#a9dc76;
+$c3:#ffd866;
+$c4:#fc9867;
+$c5:#ab9df2;
+$c6:#78dce8;
 
-.bg-tan{background: $tan-1 !important;}
-.bg-green-1{background: $green-1 !important;}
-.bg-green-2{background: $green-2 !important;}
 
 :root{
 	--black: #{$text};

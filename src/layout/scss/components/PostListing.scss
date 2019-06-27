@@ -1,7 +1,9 @@
 .post-listing{
 	text-decoration: none;
 	color: $text;
-
+	&__head{
+		
+	}
 	&__list{
 		max-width:1200px;
 	display: grid;
