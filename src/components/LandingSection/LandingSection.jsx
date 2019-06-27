@@ -6,7 +6,6 @@ import ConfettiGenerator from "confetti-js";
 class LandingSection extends React.Component {
    constructor(props) {
       super(props);
-      console.log(props)
  }
  
 
@@ -18,6 +17,7 @@ fitToContainer(canvas){
   // ...then set the internal size to match
   canvas.width  = canvas.offsetWidth;
   canvas.height = canvas.offsetHeight;
+  return {width: canvas.width, height: canvas.height};
 }
 
 componentDidMount() {
@@ -27,16 +27,16 @@ componentDidMount() {
 	
 }
 renderConfetti() {
-	console.log('render');
+	
 	var id = this.props.id;
 	 
-	var confettiSettings = { target: this.props.id, size: 5, rotate: true};
+	var confettiSettings = { target: this.props.id, rotate: true};
 	if (this.props.colors != null){
 		confettiSettings.colors =  this.props.colors;
 	}
 	if (this.props.size != null){
 		confettiSettings.size =  this.props.size;
-	} else { confettiSettings.size =  5;}
+	} else { confettiSettings.size =  3;}
 	if (this.props.shapes != null){
 		confettiSettings.props =  this.props.shapes;
 	} else {
@@ -58,17 +58,20 @@ renderConfetti() {
 	if (this.props.max != null){
 		confettiSettings.max =  this.props.max;
 	} else {
-		confettiSettings.max = 30;
+		confettiSettings.max = 15;
 	}
-	var canvas = document.getElementById(this.props.id);
 
+	var canvas = document.getElementById(this.props.id);
+	var d = this.fitToContainer(canvas);
+	confettiSettings.width = d.width;
+	confettiSettings.height = d.height;
 	let confetti = new ConfettiGenerator(confettiSettings);
 	confetti.render();
 }
   updateDimensions() {
   var self = this;
         // this.fitToContainer();
-        console.log('resize');
+   
         self.renderConfetti;
     }
 

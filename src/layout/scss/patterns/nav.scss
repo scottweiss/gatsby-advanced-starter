@@ -12,16 +12,18 @@
 		color: $text;
 		margin-left: calc(0.825 * var(--baseline));
 		text-decoration: none;
-		font-weight: bold;
+	
 		&:first-child{
 			margin-right: auto;
 			margin-left: 0;
 		}
 		&:hover{
-			border-bottom: dotted $text calc(0.125 * var(--gap));
+			// border-bottom: dotted $text calc(0.125 * var(--gap));
 		}
 		&[aria-current="page"]{
-			border-bottom: solid $text calc(0.125 * var(--gap));
+			border-bottom: solid $text calc(0.0675 * var(--gap));
+			font-weight: bold;
+
 		}
 
 	}

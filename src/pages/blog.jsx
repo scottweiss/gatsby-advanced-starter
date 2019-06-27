@@ -22,7 +22,7 @@ class Index extends React.Component {
                 <h1 className="large">Thoughts on all things CSS</h1>
                 <p className="large">tagline goes here</p>
               </div>
-              <LandingSection id="confit-blog" max={100} animate={true} clock={'-1'} colors={[[247, 211, 170], [255,119,0]]} shapes={["square", "circle"]}></LandingSection>
+              <LandingSection id="confit-blog" max="50"  size="4"  animate={true} clock={'-1'}  colors={[[247, 211, 170], [255,119,0]]} shapes={["square", "circle"]}></LandingSection>
             </header>
             <PostListing postEdges={postEdges} /> 
           </main>

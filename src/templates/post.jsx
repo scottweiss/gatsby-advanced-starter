@@ -40,7 +40,7 @@ export default class PostTemplate extends React.Component {
                <p >{post.byline}</p>
             </div>
           
-            <LandingSection id="confit-blog" ></LandingSection>
+            <LandingSection id="confit-blog" size="4" ></LandingSection>
             </header>
             <div class="o-page__body">
 
