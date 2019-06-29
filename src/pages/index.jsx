@@ -27,7 +27,7 @@ class Index extends React.Component {
                 <h2>Portfolio</h2>
                 <p className="m-0">Work that I'm proud of; a mix of professional work and personal projects</p>
               </header>
-              <LandingSection class="o-post__header__backdrop o-post__header__backdrop--1" id="confit-portfolio"  colors={[[255, 216, 102]]} shapes={["circle"]}></LandingSection>
+              <LandingSection class="o-post__header__backdrop o-post__header__backdrop--1" id="confit-portfolio"  colors={[[ 171, 157, 242], [255, 97, 136]]} shapes={["circle"]}></LandingSection>
               <LandingSection class="o-post__header__backdrop o-post__header__backdrop--2" max="13" size="2" id="confit-portfolio-2"  clock="-1" colors={[[255, 216, 102]]} shapes={["circle"]}></LandingSection>
             </Link>
             <Link to='/resume' className="  c-card o-post">
@@ -43,8 +43,8 @@ class Index extends React.Component {
                 <h2>Blog</h2>
                 <p className="m-0">Discover exciting new CSS, deep dive into my workflow, and intresting challenges I've overcome</p>
               </header>
-              <LandingSection class="o-post__header__backdrop o-post__header__backdrop--1"  id="confit-blog-1" animate={false} colors={[[255, 216, 102]]} shapes={["circle"]} ></LandingSection>
-              <LandingSection class="o-post__header__backdrop o-post__header__backdrop--2"  max="13" size="2" id="confit-blog-2" animate={false} colors={[[255, 216, 102]]} shapes={["circle"]}></LandingSection>
+              <LandingSection class="o-post__header__backdrop o-post__header__backdrop--1"  id="confit-blog-1" size="5" animate={false} colors={[[255, 97, 136]]} shapes={["circle"]} ></LandingSection>
+              <LandingSection class="o-post__header__backdrop o-post__header__backdrop--2"  max="20" size="2" id="confit-blog-2" animate={false} colors={[[255, 216, 102]]} shapes={["circle"]}></LandingSection>
             </Link>
             <Link to='/experiments' className="  c-card o-post">
               <header class="o-post__header">

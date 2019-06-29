@@ -135,8 +135,11 @@ $spacers: map-merge(
       padding: 0.5em;
       border-radius: .25em;
       background: $text;
-      color: $c3;
+      color: #FFF;
       font-weight: 900;
+      i{
+        // color: $c3;
+      }
     }
 
 @import 'type.scss';
