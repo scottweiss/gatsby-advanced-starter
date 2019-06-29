@@ -23,7 +23,7 @@ class Portfolio extends React.Component {
                   <p className="large">a subset of work</p>
                 </div>
                 
-                <LandingSection id="confit-blog" max="50"  size="4" animate={true} clock={'-1'} colors={[[70,184,52], [212,211,211], [43,146,28]]}></LandingSection>
+                <LandingSection id="confit-blog" max="50"  size="4" animate={true} clock={'-1'} colors={[[120, 220, 232]]}></LandingSection>
               </header>
               
          

@@ -25,7 +25,7 @@ export default class CategoryTemplate extends React.Component {
                 <p className="large">tagline goes here</p>
                 </div>
                 
-                <LandingSection id="confit-blog" animate={true} clock={'-1'} colors={[[247, 211, 170], [255,119,0]]} shapes={["square", "circle"]}></LandingSection>
+                <LandingSection id="confit-blog" animate={true} clock={'-1'} colors={[[255, 97, 136]]} shapes={["square", "circle"]}></LandingSection>
               </header>
           <PostListing postEdges={postEdges} />
               </main>
