@@ -36,8 +36,11 @@ class PostListing extends React.Component {
               </header>
               <footer>
                 <PostTags tags={post.tags} />
+                
                 <p className="m-0 post-listing__meta"><i class="fas fa-calendar fa-fw mr-2 post-listing__meta-icon"></i>{post.displaydate}</p>
+                {post.timeToRead != null &&
                 <p className="m-0 post-listing__meta"><i class="fas fa-book-open fa-fw mr-2 post-listing__meta-icon"></i>{post.timeToRead} minutes</p>
+              }
               </footer>
             </div>
           </article>

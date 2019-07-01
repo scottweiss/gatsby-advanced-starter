@@ -56,7 +56,6 @@ export const pageQuery = graphql`
             date
           }
           excerpt
-          timeToRead
           frontmatter {
             title
             tags
