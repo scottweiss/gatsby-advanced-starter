@@ -148,3 +148,18 @@ $spacers: map-merge(
 @import 'landing.scss';
 @import 'scss/resume.scss';
 @import 'scss/components/PostListing';
+
+
+@media print {
+  ::root{
+    font-size: 10px;
+    line-height: 1.2;
+  }
+  h1{ font-size: 1.5rem; line-height: 1.2; margin-bottom: 0;}
+  h2{ font-size: 1.25rem; line-height: 1.2;}
+  p,ul,li{
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+}

@@ -1,17 +1,35 @@
+.print-header{
+	display: none;
+	@media print {
+		display: block;
+	}
+
+}
+.no-print{
+	@media print {
+		display: none;
+	}
+}
 .p-resume{
 	display: contents;
 	display: grid;
-	 grid-column-start: 2;
-	 max-width:140ch;
-	    @media (min-width: 1000px) {
-	grid-template-columns: 3fr 1fr;
-}	
+	grid-column-start: 2;
+	max-width:140ch;
+
+	
+	@media (min-width: 1000px), print {
+		grid-template-columns: 3fr 1fr;
+	}	
+
 
 	grid-column-gap: calc(2 * var(--baseline));
+	@media  print {
+		grid-column-gap: var(--gap);
+	}	
 	&__skillset{
-			    @media (min-width: 1000px) {
-   grid-column-start: 2;
-}	
+		@media (min-width: 1000px), print {
+		   grid-column-start: 2;
+		}	
 		 
     grid-row-start: 1;
     // grid-row-end: -1;
@@ -19,21 +37,31 @@
 	&__job{
 		 grid-column-start: 1;
 		 margin-bottom: var(--baseline);
+		 @media  print {
+		   margin-bottom: 0;
+		}	
 	}
 	&__employer{
 		margin-bottom: 0px;
+
 	}
 	&__role{
 		font-size: 24px;
 		// line-height:42px;
 		margin-bottom: 0px;
-		
+			@media  print {
+		   font-size: 1.25rem; 
+		}	
 
 
 	}
 	&__duration{
 		font-size: 14px;
 		color: #555;
+		@media  print {
+		   margin-bottom: .5rem;
+		   color: #333;
+		}	
 	}
 	&__skills{
 		display: flex;
@@ -50,5 +78,8 @@
 	&__icon{
 		// font-size: 12px;
 		margin-right: 4px;
+		 @media  print {
+		  display: none;
+		}	
 	}
 }

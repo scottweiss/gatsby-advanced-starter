@@ -20,10 +20,14 @@ class Resume extends  React.Component {
               	<div className="o-page__header-content">
                   <h1 className="large">2008 - Now</h1>
                   <p className="large">a brief overview of time well spent</p>
+
                 </div>
-                
+                <div className="print-header">
+	              	<h1>Scott Weiss</h1>
+	              </div>
               <LandingSection class="o-post__header__backdrop o-post__header__backdrop--1"  id="confit-experiments-1" animate={false} size="20" max="5" shapes={["circle"]}  colors={[[ 171, 157, 242], [255, 216, 102], [255, 97, 136]]} clock="-1"></LandingSection>
               <LandingSection class="o-post__header__backdrop o-post__header__backdrop--2"  max="30" size="2" shapes={["circle"]}  id="confit-experiments-2" colors={[[ 171, 157, 242], [255, 216, 102], [255, 97, 136]]} animate={false}  clock="-1"></LandingSection>
+              
             </header>
               
          
@@ -68,10 +72,10 @@ class Resume extends  React.Component {
 							<li>Gathered requirements from peers and server administration groups.</li>
 							<li>Built a web application utilizing PHP and Ajax for server change tracking.</li>
 							<li>Created a dynamic, easy to use web-based application for sorting servers and attributes.</li>
-							<li>Coordinated the decommission of IVR servers in the Bethlehem offces.</li>
+							<li>Coordinated the decommission of IVR servers.</li>
 						</ul>
 					</article>
-					<article className="p-resume__job">
+					<article className="p-resume__job no-print">
 						<h1 className="p-resume__employer">SAP</h1>
 						<h2 className="p-resume__role">Level 2 Helpdesk Support</h2>
 						<p className="p-resume__duration"><i className="p-resume__icon far fa-calendar-alt fa-fw"></i>September 2010 – March 2011</p>
@@ -83,7 +87,7 @@ class Resume extends  React.Component {
 							<li>Upgraded classrooms with new hardware and cabling.</li>
 						</ul>
 					</article>
-					<article className="p-resume__job">
+					<article className="p-resume__job no-print">
 						<h1 className="p-resume__employer">Bensalem School District</h1>
 						<h2 className="p-resume__role">Support Technician</h2>
 						<p className="p-resume__duration"><i className="p-resume__icon far fa-calendar-alt fa-fw"></i>2008 - 2009</p>
@@ -115,9 +119,9 @@ class Resume extends  React.Component {
 								<figcaption className="p-resume__list-heading">Scripting</figcaption>
 								<ul className="p-resume__list">
 									<li>JavaScript</li>
-									<li>Vue</li>
-									<li>React/GatsbyJS</li>
-									<li>Jekyll/Handlebars/Jinja2</li>
+									<li>Vue/React</li>
+									<li>Jekyll/GatsbyJS</li>
+									<li>Handlebars/Jinja2</li>
 									<li>Markdown</li>
 									<li>jQuery</li>
 									<li>Gulp/Webpack</li>

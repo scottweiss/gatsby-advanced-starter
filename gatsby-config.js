@@ -39,6 +39,20 @@ module.exports = {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
+         {
+            resolve: `@raae/gatsby-remark-oembed`,
+            options: {
+              // defaults to false
+              usePrefix: false,
+              providers: {
+                // Important to exclude providers
+                // that adds js to the page.
+                // If you do not need them.
+                include: ["Codepen"]
+            
+              }
+            }
+          },
           {
             resolve: "gatsby-remark-images",
             options: {

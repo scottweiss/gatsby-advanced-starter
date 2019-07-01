@@ -12,15 +12,15 @@ byline: "Remember when the dvd logo almost hit a corner? Travel back to a simple
   max-height: 500px;
   width: 100%;">
 	<marquee behavior="alternate" direction="down" width="100%" height="100%">
-    <marquee behavior="alternate" direction="left" width="100%">
-<div class="dvd-logo" style=" display: block;
-  background: url(http://www.clipartbest.com/cliparts/aTq/odB/aTqodBo8c.png), red;
-  height: 70px;
-  width: 158px;
-  background-size: cover;
-  background-repeat: no-repeat;"></div>
-    </marquee>
-</marquee>
+    	<marquee behavior="alternate" direction="left" width="100%">
+			<div class="dvd-logo" style=" display: block;
+			  background: url(http://www.clipartbest.com/cliparts/aTq/odB/aTqodBo8c.png), red;
+			  height: 70px;
+			  width: 158px;
+			  background-size: cover;
+			  background-repeat: no-repeat;"></div>
+	    </marquee>
+	</marquee>
 </div>
 
 ```html
@@ -30,3 +30,5 @@ byline: "Remember when the dvd logo almost hit a corner? Travel back to a simple
   </marquee>
 </marquee>
 ```
+
+https://codepen.io/scottweiss/pen/gLOLdY
