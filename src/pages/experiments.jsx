@@ -18,7 +18,7 @@ class Experiment extends React.Component {
           <SEO />
           <main className="o-page">
             <header className="o-page__header" >
-              <div class="o-page__header-content">
+              <div className="o-page__header-content">
                 <h1 className="large">Because why not?</h1>
                 <p className="large">fun things of little importance that I wanted to give a home</p>
               </div>
