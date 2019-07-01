@@ -33,7 +33,7 @@
 	}
 	&__duration{
 		font-size: 14px;
-		color: #777;
+		color: #555;
 	}
 	&__skills{
 		display: flex;
@@ -44,6 +44,7 @@
 		display: inline-block;
 		&-heading{
 			font-weight: bold;
+			font-size: 1.25em; 
 		}
 	}
 	&__icon{

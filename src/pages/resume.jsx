@@ -98,41 +98,45 @@ class Resume extends  React.Component {
 
 			<aside className="p-resume__skillset">
 					<section>
-							<h1>Skills</h1>
-					<div className="p-resume__skills" >
-						<ul className="p-resume__list">
-							<lh className="p-resume__list-heading">Essentials</lh>
-							<li>HTML/5</li>
-							<li>CSS/3</li>
-							<li>Flex/Grid</li>
-							<li>Browser limitations</li>
-							<li>Sass</li>
-							<li>Bootstrap</li>
-
-						</ul>
-						<ul className="p-resume__list">
-							<lh className="p-resume__list-heading">Scripting</lh>
-							<li>JavaScript</li>
-							<li>Vue</li>
-							<li>React/GatsbyJS</li>
-							<li>Jekyll/Handlebars/Jinja2</li>
-							<li>Markdown</li>
-							<li>jQuery</li>
-							<li>Gulp/Webpack</li>
-							<li>NPM</li>
-
-						</ul>
-						<ul className="p-resume__list">
-							<lh className="p-resume__list-heading">Other Tools</lh>
-							<li>SQL</li>
-							<li>MySQL</li>
-							<li>Git/Mercurial</li>
-							<li>JIRA/Slack</li>
-							<li>Windows, OSX, Linux</li>
-							<li>Microsoft Offce</li>
-							<li> Google Apps Administration</li>
-						</ul>
-					</div>
+						<h1>Skills</h1>
+						<div className="p-resume__skills" >
+							<figure>
+								<figcaption className="p-resume__list-heading">Essentials</figcaption>
+								<ul className="p-resume__list">
+									<li>HTML/5</li>
+									<li>CSS/3</li>
+									<li>Flex/Grid</li>
+									<li>Browser limitations</li>
+									<li>Sass</li>
+									<li>Bootstrap</li>
+								</ul>
+							</figure>
+							<figure>
+								<figcaption className="p-resume__list-heading">Scripting</figcaption>
+								<ul className="p-resume__list">
+									<li>JavaScript</li>
+									<li>Vue</li>
+									<li>React/GatsbyJS</li>
+									<li>Jekyll/Handlebars/Jinja2</li>
+									<li>Markdown</li>
+									<li>jQuery</li>
+									<li>Gulp/Webpack</li>
+									<li>NPM</li>
+								</ul>
+							</figure>
+							<figure>
+								<figcaption className="p-resume__list-heading">Other Tools</figcaption>
+								<ul className="p-resume__list">
+									<li>SQL</li>
+									<li>MySQL</li>
+									<li>Git/Mercurial</li>
+									<li>JIRA/Slack</li>
+									<li>Windows, OSX, Linux</li>
+									<li>Microsoft Offce</li>
+									<li>Google Apps Administration</li>
+								</ul>
+							</figure>
+						</div>
 					</section>
 				
 					
