@@ -4,7 +4,7 @@ import React, { Component } from "react";
 class Contact extends Component {
   render() {
     return (
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" method="POST" data-netlify="true" action="/">
 		  <p>
 		    <label>Your Name: <input type="text" name="name" /></label>   
 		  </p>
