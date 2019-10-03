@@ -6,7 +6,9 @@
 	grid-template-columns: auto;
 	overflow: visible;
   	grid-template-rows: auto ;
-  	grid-gap: var(--gap);
+	  grid-gap: var(--gap);
+	  padding-left: var(--baseline);
+	  padding-right: var(--baseline);
   	
   	transform:translate3d(0,0,0);
 

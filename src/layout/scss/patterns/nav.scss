@@ -1,10 +1,12 @@
 .p-nav{
 	padding-top: calc(0.5 * var(--gap));
 	padding-bottom: calc(0.125 * var(--gap) + 1px);
+	padding-left: var(--baseline);
+	padding-right: var(--baseline);
 	display: flex;
 	position: sticky;
     background: rgba(255,255,255,0.95);
-    width: 100%;
+    // width: 100%;
     z-index: 1;
     top: 0;
     backdrop-filter: blur(2px);
