@@ -19,7 +19,7 @@ class Index extends React.Component {
           <main className="o-page">
             <header className="o-page__header">
               <h1 className="large">Design Systems-<br /> Accessibility- <br/>   Progressive Enhancement- <br/>Responsive Design-<br/>  Style Architecture-</h1>
-              <p className="">Scott Weiss is a Front-End/UI Developer (and amature leatherworker) currently based in Portland, Oregon</p>
+              <p className="">Scott Weiss is a Front-End/UI Developer (and amateur leatherworker) currently based in Portland, Oregon</p>
             </header>
            
             <Link to='/portfolio' className=" o-post  c-card">
@@ -57,7 +57,7 @@ class Index extends React.Component {
             <Link to='/leathercraft' className="  c-card o-post">
               <header class="o-post__header">
                 <h2>Leather Work</h2>
-                <p className="m-0">A journey from complete amature, to a slighlty less amature leatherworker</p>
+                <p className="m-0">A journey from complete amateur, to a slighlty less amateur leatherworker</p>
               </header>
               <LandingSection class="o-post__header__backdrop o-post__header__backdrop--1"  id="confit-leather-1" animate={false} colors={[[255, 216, 102], [255, 97, 136]]} shapes={["circle"]}></LandingSection>
               <LandingSection class="o-post__header__backdrop o-post__header__backdrop--2"  max="13" size="2" id="confit-leather-2" animate={false} colors={[[255, 216, 102], [255, 97, 136]]} shapes={["circle"]}></LandingSection>
